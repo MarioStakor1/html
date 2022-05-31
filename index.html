@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <meta charset="utf-8">
+       <meta name="viewport" content="witdt=device-width, initial-scale=1">
+        <title>My First Website</title>
+        <link rel="stylesheet" href="style.css">
+    </head>   
+    <body>
+        <h1>Welcome to my HTML site</h1>
+        <p class="p-welcome">Welcome to my personal HTML site. Feel free to look around my website.</p>
+        <a href="contact.html" target="_blank">Visit my contact page here!</a>
+    </body>
+    <body>
+    <style>
+        *{
+          box-sizing:border-box;
+        }
+        .menu {
+            float: right;
+            width: 10%;
+        }
+        .menuitem {
+            padding: 7px;
+            margin-top: 4px;
+            border-bottom: 3px solid #f1f1f1;
+        }
+        .main {
+            float: left;
+            width: 15%;
+            padding: 0 15px;
+            overflow: hidden;
+        }
+        .right {
+            background-color: aqua;
+            float: right;
+            width: 30%;
+            padding: 10px 20px;
+            margin-top: 3px;
+            }
+        @media only screen and (max-width:800px) {
+        /* For tablets: */
+        .main {
+            width: 60%;
+        padding: 0;
+            }
+        .right {
+        width: 100%;
+            }
+            }
+        @media only screen and (max-width:500px) {
+        /* For mobile phones: */
+        .menu, .main, .right {
+        width: 100%;
+        }
+        }
+        
+        <body style="font-family:Verdana;">
+        
+        <div style="background-color:#f1f1f1;padding:30px;">
+        <h1>CSS
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        body {background-color: powderblue;} 
+    /* Style the header */
+        header {
+            background-color: #456;
+            padding: 20px;
+            text-align: center;
+            font-size: 25px;
+            color: aliceblue;
+        }
+        
+        /* Create two columns/boxes that floats next to each other */
+        nav {
+            float: left;
+            width: 50%;
+            height: 200px; /* only for demonstration, should be removed */
+            background: #ccc;
+            padding: 10px;
+        }
+        
+        /* Style the list inside the menu */
+        nav ul {
+            list-style-type: none;
+            padding:0;
+        }
+        article {
+        float: left;
+        padding: 20px;
+        width: 70%;
+        background-color: #f1f1f1;
+        height: 300px; /* only for demonstration, should be removed */
+        }
+
+        /* Clear floats after the columns */
+        section::after {
+        content: "";
+        display: table;
+        clear: both;
+        }
+
+        /* Style the footer */
+        footer {
+        background-color: #777;
+        padding: 10px;
+        text-align: center;
+        color: white;
+            }
+
+        /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+        @media (max-width: 600px) {
+        nav, article {
+        width: 100%;
+        height: auto;
+        }
+        }
+        </style>
+        </body>
+    
+        <body>
+        
+        <h2>CSS Programming</h2>
+        <p>In this part of the site, I have created some things, two columns/boxes and a footer. ON smaller screens, the columns will stack on top of each other.</p>
+        <p>Resize the browser window to see the responsive effect (you will learn more about this in our next chapter - HTMl Responsive.)</p>
+        
+            <p><strong>Note:</strong>Both CSS and HTML are fun to learn.</p>
+            
+        <header>
+            <h2>CSS</h2>
+        </header>
+        
+        <section>
+            <nav>
+                <ul>
+                    <li><a href="#">CSS1</a></li>
+                    <li><a href="#">CSS2</a></li>
+                    <li><a href="#">CSS3</a></li>
+                </ul>
+            </nav>
+        </section>
+        <h1>My First Webiste</h1>
+        <h2>An HTMl Playground</h2>
+        <h3>This is going to work</h3>
+        <h4>HTML can be very interesting</h4>
+        <h5>I need to learn HTML</h5>
+        <h6>HTML programming is funny</h6>
+        
+        <div style="background-color:black;color:white;padding:20px;">
+            <h2>HTML</h2>
+        <p>This will be my starting learning page about HTML. I hope it will turn out to something good.</p>
+        </div>
+        
+        This is my very first website and I'm <b>extremely excited!!</b>
+        
+        <p style="background-color:tomato;">HTML is the standard markup language for Web pages.
+            With HTML you can create your own Website.
+            HTML is easy to learn - You will enjoy it!
+            
+        <p {
+           border: 2px solid powderblue;
+           }
+        </p>
+        </p>
+        
+        <p style="border:2px solid dodgerblue;">HTML (HyperText Markup Language) is the code that is used to structure a web page and its content. For example, content could be structured within a set of paragraphs, a list of bulleted points, or using images and data tables.
+           
+        <p {
+           border: 2px solid powderblue;
+           padding: 50px;
+           }
+        
+        </p>
+        <style>
+        h1 {
+            color: blue;
+            font-family: verdana;
+            font-size: 200%;
+            
+            
+            }
+        p {
+            color: red;
+            font-size: courier;
+            font-size: 120%</style>
+            
+            <p>My HTML site has <span style="color:blue;font-weight:bold">blue</span> and alot of colors <span style="color:darkolivegreen;font-weight:bold">dark green</span> eyes.</p>
+            
+        <style>
+        /* Style the element with the id "myHeader" */
+        #myHeader {
+        background-color: lightblue;
+        color: black;
+        padding: 40px;
+        text-align: center;
+                    }
+
+        /* Style all elements with the class name "city" */
+        .city {
+        background-color: tomato;
+        color: white;
+        padding: 10px;
+        }
+        </style>
+
+        <!-- An element with a unique id -->
+        <h1 id="myHeader">My HTML sites</h1>
+
+        <!-- Multiple elements with same class -->
+        <h2 class="city">HTML</h2>
+        <p>HTML is my first programming language.</p>
+
+        <h2 class="city">HTML</h2>
+        <p>HTML is one of the easiest languages to learn.</p>
+
+        <h2 class="city">HTML and CSS</h2>
+        <p>HTML and CSS are easiest languages to learn.</p>
+        
+        
+        
+    
+        <body>
+        HTML is perhaps one of the easiest front-end programming languages to master.<br><br>
+        So if you want to learn HTML, then go for it! With patience and practice, you'll learn to make the most of this popular language.
+        
+        <b>Is HTML still used?</b>
+        <hr>
+        <i>Do people still code HTML and CSS by hand? Of course they do.</i>
+        <hr>
+        <u>In fact, every web developer should still be coding HTML and CSS by hand, even in current times where WYSIWYG editors and drag-and-drop page building tools are rife amongst the wider community.</u>
+        <hr>
+        <em>HTML, Python, JavaScript, PHP, and Java are some of the easiest, high-level languages for beginning coders to learn. What are some of the hardest coding languages to learn? Assembly, C, C++, C#, and Objective C are some of the tougher programming languages to learn.</em>
+        <hr>
+        <strong style="background-color:rgba(255, 99, 71, 0.5);">Fortunately, the basics of HTML are actually pretty easy for the average learner to grasp. You can start picking up HTML in a matter of hours. It should take you one to two weeks to get the full gist of HTML, and about a month of practice to get comfortable with the language.</strong>
+     
+        <a href="https://www.google.com" target="_blank">Fortunately, the basics of HTML are actually pretty easy for the average learner to grasp.</a>
+        <br>
+        <img src="https://via.placeholder.com/350x150" border="2">
+        
+        <ul>
+            <li>h
+                <ul>
+                <li>its interesting</li>
+                <li>I'm still learning it</li>
+                </ul>
+            <li>t</li>
+            <li>m</li>
+            <li>l</li>  
+        </ul>
+        
+        <table border="3" cellpadding="5" cellspacing="4">
+            <tr>
+                <th></th>
+                <th>Month</th>
+                <th>Rent</th>
+                <th colspan="2">Utilities</th>
+                <th>Groceries</th>
+                <th>Eating</th>
+                <th>Entertainment</th>
+            </tr>
+            <tr>
+                <td rowspan="3">Fall</td>
+                <td>June</td>
+                <td>$1500</td>
+                <td>$100</td>
+                <td>$50</td>
+                <td>$350</td>
+                <td>$100</td>
+                <td>$400</td>
+            </tr>
+            <tr>
+                <td>July</td>
+                <td>$1500</td>
+                <td>$100</td>
+                <td>$50</td>
+                <td>$350</td>
+                <td>$100</td>
+                <td>$400</td>
+            </tr>
+            <tr>
+                <td>August</td>
+                <td>$1500</td>
+                <td>$100</td>
+                <td>$50</td>
+                <td>$350</td>
+                <td>$100</td>
+                <td>$400</td>
+            </tr>
+        </table>
+            </body>
+    
+            <style>
+        /* Style the element with the id "myHeader" */
+        #myHeader {
+        background-color: lightblue;
+        color: black;
+        padding: 40px;
+        text-align: center;
+                }
+
+        /* Style all elements with the class name "city" */
+                .city {
+        background-color: tomato;
+        color: white;
+        padding: 10px;
+                }
+            </style>
+
+        <!-- An element with a unique id -->
+        <h1 id="myHeader">My Programming languages</h1>
+
+        <!-- Multiple elements with same class -->
+            <h2 class="city">HTML</h2>
+        <p>HTML is my first language that I learn.</p>
+
+        <h2 class="city">CSS</h2>
+        <p>CSS is going to be my second language that I will learn.</p>
+
+            <h2 class="city">Java</h2>
+            <p>Java will be my third programming languages that I will learn.</p>
+            
+         
+        <section>
+        <h1>WWW</h1>
+        <p>The World Wide WEb, commonly known as the WEb, is the world's dominant software platform. It is an information space where documents and other web resources can be accessed through the Internet using a web browser.</p>
+        </section>
+</html>
+
